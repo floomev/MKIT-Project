@@ -34,9 +34,9 @@ import Buttons from './components/Buttons.vue'
       class="router-link">Места</router-link> </li><div class="border"></div>
     <li><router-link :to="{name: 'Findcopy'}"
       class="router-link">Рейтинг</router-link> </li><div class="border"></div>
-    <li><router-link :to="{name: 'Questions'}"
+    <li><router-link :to="{name: 'MaincopyPage'}"
       class="router-link">Отдых для тебя</router-link> </li><div class="border"></div>
-    <li><router-link :to="{name: 'poem'}"
+    <li><router-link :to="{name: 'poemcopy'}"
       class="router-link">Профиль</router-link></li>
   </ul>
 

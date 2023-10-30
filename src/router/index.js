@@ -4,6 +4,8 @@ import FinderView from '../views/FindView.vue'
 import QuestionsView from "../views/QuestionsView.vue"
  import PoemView from '../views/PoemView.vue'
  import FindercopyView from '../views/FindcopyView.vue'
+ import MaincopyView from '../views/MaincopyView.vue'
+ import PoemcopyView from '../views/PoemcopyView.vue'
 const router = createRouter ({
    
     routes: [ {
@@ -37,6 +39,19 @@ const router = createRouter ({
         path: '/findercopy',
         component: FindercopyView,
         name: 'Findcopy'
+
+
+    },
+    {
+        path: '/maincopy',
+        component: MaincopyView,
+        name: 'MaincopyPage'
+
+    },
+    {
+        path: '/poemcopy',
+        component: PoemcopyView,
+        name: 'poemcopy'
 
 
     },
